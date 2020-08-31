@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<framework:BaseContentPage
+  x:Class="SportPoint.Features.LogIn.SignUpPage"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:effects="clr-namespace:SportPoint.Effects"
+  xmlns:framework="clr-namespace:SportPoint.Framework"
+  xmlns:local="clr-namespace:SportPoint.Features.LogIn"
+  x:DataType="local:SignUpViewModel"
+  x:TypeArguments="local:SignUpViewModel"
+  ControlTemplate="{StaticResource FullScreenLoadingTemplate}" 
+    BackgroundImageSource="login_background.jpg">
+    
+    <ContentPage.Content>
+
+        <!--<Frame
+            BackgroundColor="White"
+            Margin="40,40,40,40"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand" >
+        </Frame>-->
+        
+        <Grid>
+
+            <Grid.Padding>
+                <Thickness 
+                        Left="{StaticResource Default2Margin}"
+                        Right="{StaticResource Default2Margin}" />
+            </Grid.Padding>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <!--<ContentView Grid.Row="0">
+                    <Image 
+                        Margin="{StaticResource DefaultMargin}"
+                        HeightRequest="64"
+                        HorizontalOptions="CenterAndExpand"
+                        Source="login_background.jpg"
+                        VerticalOptions="Center"
+                        WidthRequest="240" />
+                </ContentView>-->
+
+            <StackLayout Grid.Row="1">
+                <!--Nombre-->
+                <Label 
+                        Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
+                        Text="Nombre" />
+                <Entry 
+                        AutomationId="givenNameField"
+                        Text="{Binding GivenName}">
+                    <Entry.Effects>
+                        <effects:BorderlessEntryEffect />
+                    </Entry.Effects>
+                </Entry>
+
+                <!--Apellido-->
+                <Label 
+                        Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
+                        Text="Apellido" />
+                <Entry 
+                        AutomationId="surnameField"
+                        Text="{Binding Surname}">
+                    <Entry.Effects>
+                        <effects:BorderlessEntryEffect />
+                    </Entry.Effects>
+                </Entry>
+
+                <!--UserName-->
+                <Label 
+                        Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
+                        Text="Nombre de Usuario" />
+                <Entry 
+                        AutomationId="usernameField"
+                        Text="{Binding Username}">
+                    <Entry.Effects>
+                        <effects:BorderlessEntryEffect />
+                    </Entry.Effects>
+                </Entry>
+
+                <!--Password-->
+                <Label 
+                        Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
+                        Text="Contraseña">
+                    <Label.Margin>
+                        <Thickness Top="{OnPlatform Android={StaticResource DefaultMargin}, iOS={StaticResource 2xDefaultMargin}}" />
+                    </Label.Margin>
+                </Label>
+                <Entry 
+                        AutomationId="passwordField"
+                        IsPassword="true"
+                        Text="{Binding Password}">
+                    <Entry.Effects>
+                        <effects:BorderlessEntryEffect />
+                    </Entry.Effects>
+                </Entry>
+
+                <!--Repeat the password-->
+                <Label 
+                        Style="{StaticResource BrandonGrotesqueLightSmallFontStyle}"
+                        Text="Repetir Contraseña">
+                    <Label.Margin>
+                        <Thickness Top="{OnPlatform Android={StaticResource DefaultMargin}, iOS={StaticResource 2xDefaultMargin}}" />
+                    </Label.Margin>
+                </Label>
+                <Entry 
+                        AutomationId="repeatPasswordField"
+                        IsPassword="true"
+                        Text="{Binding RepeatedPassword}">
+                    <Entry.Effects>
+                        <effects:BorderlessEntryEffect />
+                    </Entry.Effects>
+                </Entry>
+            </StackLayout>
+
+            <StackLayout
+                    Grid.Row="2"
+                    Spacing="{StaticResource Default2Margin}"
+                    VerticalOptions="End">
+                <StackLayout.Padding>
+                    <Thickness 
+                            Top="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" 
+                            Bottom="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" />
+                </StackLayout.Padding>
+
+                <!--SignUp Button-->
+                <Button 
+                        AutomationId="signUpButton"
+                        Style="{StaticResource Accent2ColorButtonStyle}"
+                        Command="{Binding SignUpCommand}"
+                        BackgroundColor="White"
+                        TextColor="#ab2727"
+                        Text="Crear Cuenta" />
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</framework:BaseContentPage>

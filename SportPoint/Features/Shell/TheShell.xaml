@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Currently it's needed to pass the entire qualified name as x:Class -->
+<Shell x:Name="theShell"
+  x:Class="SportPoint.Features.Shell.TheShell"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:home="clr-namespace:SportPoint.Features.Home"
+  xmlns:local="clr-namespace:SportPoint.Features.Shell"
+  Title="Sport Point"
+  FlyoutHeaderBehavior="CollapseOnScroll">
+    
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style
+                ApplyToDerivedTypes="True"
+                TargetType="ShellItem">
+                    <Setter Property="Shell.BackgroundColor" Value="{StaticResource PrimaryColor}" />
+                    <Setter Property="Shell.ForegroundColor" Value="{StaticResource AccentOppositeColor}" />
+                    <Setter Property="Shell.TitleColor" Value="White" />
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <Shell.FlyoutHeader>
+        <local:FlyoutHeader BindingContext="{Binding Source={x:Reference theShell}, Path=BindingContext}" />
+    </Shell.FlyoutHeader>
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <ContentView HeightRequest="{StaticResource 2xDefaultMargin}">                
+                <ContentView.Padding>
+                    <Thickness 
+                        Left="{StaticResource 2xDefaultMargin}"
+                        Top="{StaticResource DefaultMargin}" />
+                </ContentView.Padding>
+                <Label
+                    Text="{Binding Title}"
+                    TextColor="{StaticResource AccentOppositeColor}" />
+            </ContentView>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <ContentView HeightRequest="{StaticResource 2xDefaultMargin}">
+                <ContentView.Padding>
+                    <Thickness
+                        Left="{StaticResource 2xDefaultMargin}"
+                        Top="{StaticResource DefaultMargin}" />
+                </ContentView.Padding>
+                <Label
+                    Text="{Binding Title}"
+                    TextColor="{StaticResource AccentOppositeColor}" />
+            </ContentView>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+    
+    <FlyoutItem
+        Title="¿Quieres publicar tu negocio?" >
+        <ShellContent ContentTemplate="{DataTemplate home:HomePage}" />
+    </FlyoutItem>
+    
+    <MenuItem
+        BindingContext="{x:Reference theShell}"
+        Text="Inicio" />
+    
+    <MenuItem
+        BindingContext="{x:Reference theShell}"
+        Text="Ajustes" />
+
+    <MenuItem
+        BindingContext="{x:Reference theShell}"
+        Command="{Binding BindingContext.LogOutCommand}"
+        Text="Cerrar sesión" />
+    
+</Shell>

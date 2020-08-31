@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<framework:BaseContentPage
+  x:Class="SportPoint.Features.LogIn.HomePage"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+  xmlns:effects="clr-namespace:SportPoint.Effects"
+  xmlns:framework="clr-namespace:SportPoint.Framework"
+  xmlns:local="clr-namespace:SportPoint.Features.LogIn"
+  x:DataType="local:HomeViewModel"
+  x:TypeArguments="local:HomeViewModel"
+  ControlTemplate="{StaticResource FullScreenLoadingTemplate}" 
+    BackgroundImageSource="login_background.jpg">
+    
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.Padding>
+                <Thickness 
+                        Left="{StaticResource Default2Margin}"
+                        Right="{StaticResource Default2Margin}" />
+            </Grid.Padding>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackLayout 
+                Grid.Row="1"
+                Spacing="{StaticResource Default2Margin}"
+                VerticalOptions="End">
+                
+                <StackLayout.Padding>
+                    <Thickness 
+                            Top="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" 
+                            Bottom="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" />
+                </StackLayout.Padding>
+
+                <!--Sign Up Button-->
+                <Button 
+                        AutomationId="homeSignUpButton"
+                        Style="{StaticResource Accent2ColorButtonStyle}"
+                        Text="Crear Cuenta" 
+                        TextColor="White"
+                        BackgroundColor="#ab2727"
+                        Command="{Binding OnPressSignUpCommand}"
+                    />
+            </StackLayout>
+
+            <StackLayout
+                    Grid.Row="2"
+                    Spacing="{StaticResource Default2Margin}"
+                    VerticalOptions="End">
+                <StackLayout.Padding>
+                    <Thickness 
+                            Top="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" 
+                            Bottom="{OnPlatform Android={StaticResource 2xDefaultMargin}, iOS={StaticResource 4xDefaultMargin}}" />
+                </StackLayout.Padding>
+
+                <!--Sign In Button-->
+                <Button 
+                        AutomationId="homeSignInButton"
+                        Style="{StaticResource Accent2ColorButtonStyle}"
+                        Text="Iniciar Sesión" 
+                        BackgroundColor="White"
+                        TextColor="#ab2727"
+                        Command="{Binding OnPressSignInCommand}"
+                    />
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</framework:BaseContentPage>

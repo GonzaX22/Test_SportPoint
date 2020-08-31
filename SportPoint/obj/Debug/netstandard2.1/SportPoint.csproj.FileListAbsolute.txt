@@ -1,0 +1,58 @@
+C:\SportPointV7\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.deps.json
+C:\SportPointV7\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.dll
+C:\SportPointV7\SportPoint\SportPoint\bin\Debug\netstandard2.1\ref\SportPoint.dll
+C:\SportPointV7\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.pdb
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.Features.Localization.Resources.resources
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csproj.GenerateResource.cache
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Colors.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\ControlTemplates.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Converters.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Home\HomePage.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\HomePage.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\LogInPage.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\SignUpPage.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Shell\FlyoutHeader.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Shell\TheShell.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\FontStyles.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\GlobalStyles.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Sizes.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\Styles.xaml.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\RefitStubs.g.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.AssemblyInfoInputs.cache
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.AssemblyInfo.cs
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csproj.CoreCompileInputs.cache
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\XamlC.stamp
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.dll
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\ref\SportPoint.dll
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.pdb
+C:\SportPointV7\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csprojAssemblyReference.cache
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.deps.json
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.dll
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\bin\Debug\netstandard2.1\ref\SportPoint.dll
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\bin\Debug\netstandard2.1\SportPoint.pdb
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csprojAssemblyReference.cache
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.Features.Localization.Resources.resources
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csproj.GenerateResource.cache
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Colors.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\ControlTemplates.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Converters.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Home\HomePage.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\HomePage.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\LogInPage.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\LogIn\Views\SignUpPage.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Shell\FlyoutHeader.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Features\Shell\TheShell.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\FontStyles.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\GlobalStyles.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Sizes.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\Styles.xaml.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\RefitStubs.g.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.AssemblyInfoInputs.cache
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.AssemblyInfo.cs
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.dll
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\ref\SportPoint.dll
+C:\Users\User1\Documents\Consultora\SportPoint-dev (12)\SportPoint-dev\SportPoint\SportPoint\obj\Debug\netstandard2.1\SportPoint.pdb

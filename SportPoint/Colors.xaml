@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ResourceDictionary
+  x:Class="SportPoint.Colors"
+  xmlns="http://xamarin.com/schemas/2014/forms"
+  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <Color x:Key="AccentColor">#ffffff</Color>          <!--White-->
+    <Color x:Key="Accent2Color">#673C4F</Color>         <!--Purple-->
+    <Color x:Key="AccentOppositeColor">#000000</Color>  <!--Black-->
+    <Color x:Key="PrimaryColor">#48464f</Color>         <!--Black-->
+
+</ResourceDictionary>
